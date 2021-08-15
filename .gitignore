@@ -2,3 +2,9 @@
 
 /Blender/*.svg
 /Blender/*.blend1
+
+/Unity/Library
+/Unity/Logs
+/Unity/Recordings
+/Unity/Temp
+/Unity/UserSettings
