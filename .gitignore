@@ -1,3 +1,4 @@
 .DS_Store
-*.svg
-*.blend1
+
+/Blender/*.svg
+/Blender/*.blend1
