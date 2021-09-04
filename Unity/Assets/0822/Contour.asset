@@ -18,10 +18,10 @@ MonoBehaviour:
     m_Value: {r: 0, g: 0, b: 0, a: 1}
   edgeSource:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   edgeThreshold:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.29
   edgeContrast:
     m_OverrideState: 1
     m_Value: 1
