@@ -7,6 +7,9 @@ The following is my plotter art workflow with Unity.
 1. Rotate it if needed.
    `convert temp.png -rotate 90 render.png`
 
+1. Convert it to a black/white (complete binary) image.
+   `convert temp.png -threshold 5% render.png`
+
 1. Convert it into SVG using autotrace.
    `autotrace --centerline --output-format=svg render.png > plot.svg`
 
