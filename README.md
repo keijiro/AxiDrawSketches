@@ -23,3 +23,9 @@ with png files).
 I used [hanmertens' fork](https://github.com/hanmertens/autotrace.git) instead.
 
 Memo: To toggle the pen position, use `axicli -m toggle`
+
+Memo: To build autotrace, the following packages are needed:
+
+```
+autoconf intltool autopoint libglib2.0-dev libtool libmagickcore-dev libpstoedit-dev
+```
