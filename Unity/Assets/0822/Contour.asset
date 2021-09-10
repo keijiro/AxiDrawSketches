@@ -21,7 +21,7 @@ MonoBehaviour:
     m_Value: 0
   edgeThreshold:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.248
   edgeContrast:
     m_OverrideState: 1
     m_Value: 1
