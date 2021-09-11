@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 'Processing image'
-convert render.png -rotate 90 -threshold 5% temp.png
+convert render.png -rotate 90 -threshold 90% temp.png
 
 echo 'Scanning paths'
 ./autotrace/autotrace --centerline --output-format=svg temp.png > scan.svg
