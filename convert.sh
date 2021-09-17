@@ -8,6 +8,5 @@ echo 'Scanning paths'
 ./autotrace/autotrace --centerline --output-format=svg temp.png > scan.svg
 
 echo 'Optimize paths'
-python3 optimize.py
-
-echo 'Done'
+python3 cull.py
+axicli cull.svg -m reorder -G3 -o plot.svg
