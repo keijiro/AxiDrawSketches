@@ -10,7 +10,9 @@ out.append('<g transform="scale(0.125)">')
 
 for path in paths:
     for seg in path:
-        if not isinstance(seg, Line) or seg.length() > 8:
+        if seg.length() < 8:
+            print('Culled: ' + str(seg))
+        else:
             out.append('<path d="' + Path(seg).d() + '"/>')
 
 out.append('</g>')
